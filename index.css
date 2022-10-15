@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: black;
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+.content {
+  position: absolute;
+  border: 1px;
+  min-width: 100%;
+  min-height: 5%;
+  margin-right: 5%;
+  /* padding-left: 30px; */
+  /* justify-content: flex-end; */
+  background-color: rgb(102, 8, 189);
+  text-align: end;
+  padding: 5px;
+  color: white;
+  /* left: 10px; */
+}
+/* .header {
+  display: flex;
+  /* justify-content: center; */
+
+.subheader {
+  border: 1px transparent solid;
+  min-width: 100%;
+  min-height: 10%;
+  position: absolute;
+  top: 40px;
+  background-color: rgba(255, 255, 255, 0.5);
+  opacity: 0.5;
+}
+.text {
+  display: flex;
+  /* text-align: ; */
+  top: 50px;
+  /* opacity: 300%; */
+  font-weight: bolder;
+}
+.text i {
+  position: absolute;
+  left: 9%;
+}
+h1 {
+  color: rgb(102, 8, 189);
+}
+h1 i {
+  color: rgb(102, 8, 189);
+  position: absolute;
+  top: 0px;
+  left: 150px;
+  font-size: 50px;
+}
+.cont {
+  position: absolute;
+  top: 340px;
+  left: 530px;
+}
+.sub {
+  position: absolute;
+  left: 800px;
+  top: 80px;
+  word-spacing: 80px;
+  /* text-decoration: none; */
+}
+.sub a {
+  text-decoration: none;
+  font-size: 23px;
+  color: white;
+}
+.sub a:hover {
+  color: gray;
+  /* opacity: 300%; */
+}
+.sub button {
+  background-color: transparent;
+  border: none;
+}
+
+.classo {
+  display: none;
+}
+.classo a {
+  text-align: center;
+}
+.classo a:hover {
+  color: azure;
+  text-decoration: underline;
+  /* background-color: azure; */
+}
+.sub #no:hover .classo {
+  padding: 10px;
+  display: block;
+  border: 1px gray solid;
+  min-height: 75px;
+  min-width: 85px;
+  background-color: gray;
+
+  /* transition: 1s ease-in-out; */
+}
+input {
+  width: 350px;
+  height: 35px;
+  border: 10px rgba(255, 255, 255, 0.5) solid;
+  border-radius: 5px;
+}
+button {
+  height: 35px;
+  width: 55px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(102, 8, 189);
+  border-radius: 5px;
+}
+button:hover {
+  background-color: transparent;
+}
+input[type="search"] {
+  outline: none;
+}
+.get a {
+  justify-content: left;
+}
+.get {
+  display: none;
+}
+.get a:hover {
+  color: azure;
+  text-decoration: underline;
+}
+#ges:hover .get {
+  display: block;
+  padding: 10px;
+  display: block;
+  border: 1px gray solid;
+  min-height: 75px;
+  min-width: 110px;
+  background-color: gray;
+}

@@ -1,0 +1,328 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* margin-left: 10px; */
+  background-color: #d3d3d3;
+  /* overflow-x: hidden; */
+  overflow-x: hidden;
+}
+.rent .rentabout {
+  display: flex;
+}
+#sign {
+  border: 1px solid;
+  position: absolute;
+  width: 25%;
+  left: 37%;
+  height: 80%;
+  display: none;
+  bottom: 0%;
+  z-index: 20;
+  color: blue;
+  /* padding: 15px; */
+  background-color: #fffff7;
+}
+#up {
+  display: none;
+  border: 1px blue solid;
+  text-align: center;
+  background-color: #d3d3d3;
+  margin: auto;
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  padding: 30px;
+  height: 80%;
+}
+.div.about {?
+  text-align: center;
+}
+#sub-button {
+  border: none;
+  border-radius: 5px;
+}
+#sign button {
+  border: none;
+  background-color: #fffff7;
+  border-radius: 5px;
+  font-size: 15px;
+}
+#up input {
+  text-align: center;
+  border: 1px blue solid;
+}
+#sign button:hover {
+  background-color: #fffff7;
+}
+#sign input {
+  border: 1px blue solid;
+  margin-left: 13%;
+  padding: 5px;
+  text-align: center;
+}
+#sign input[type="text"] {
+  outline: none;
+}
+#sign input[type="Email"] {
+  outline: none;
+}
+#sign input[type="password"] {
+  outline: none;
+}
+#sign a {
+  text-decoration: none;
+  color: black;
+}
+.content {
+  /* position: absolute; */
+  width: 100%;
+  border: 1px;
+  display: flex;
+  justify-content: end;
+  padding: 2px;
+  background-color: rgb(102, 8, 189);
+  text-align: end;
+  padding: 5px;
+  color: white;
+  /* left: 10px; */
+}
+.nex {
+  display: flex;
+  flex-direction: column;
+}
+.subheader .nav-bar {
+  display: none;
+}
+.subheader {
+  /* border: 1px transparent solid; */
+  /* position: fixed; */
+  /* min-height: 1%; */
+  display: flex;
+  /* text-align: end; */
+  /* left: 200px; */
+  /* position: absolute; */
+  /* top: px; */
+  background-color: #fffff7;
+  /* opacity: 0.5; */
+}
+h1 i {
+  position: absolute;
+  margin-left: -1.5%;
+}
+.sub {
+  margin-left: 620px;
+  margin-top: 20px;
+  /* position: fixed; */
+  word-spacing: 80px;
+}
+.sub button {
+  border: none;
+  background-color: transparent;
+
+  /* word-spacing: 80px; */
+}
+.sub a {
+  text-decoration: none;
+  /* font-size: 23px; */
+  /* color: white; */
+}
+.sub a:hover {
+  color: gray;
+  /* opacity: 300%; */
+}
+.classo {
+  display: none;
+}
+.classo a {
+  text-align: center;
+  color: white;
+}
+.classo a:hover {
+  color: whitesmoke;
+  /* color: blue; */
+  text-decoration: underline;
+  /* background-color: azure; */
+}
+.sub #no:hover .classo {
+  padding: 10px;
+  display: block;
+  border: none;
+  min-height: 40px;
+  min-width: 40px;
+  position: absolute;
+  /* margin: -2px; */
+  background-color: rgb(102, 8, 189);
+
+  transition: 1s ease-in-out;
+}
+.subheader h1 {
+  color: rgb(102, 8, 189);
+}
+.subheader {
+  /* position: relative; */
+}
+.subheader i {
+  position: absolute;
+  left: 9%;
+
+  /* margin-left: 200px; */
+}
+.context {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(102, 8, 189);
+  padding: 1rem;
+}
+
+.context > div {
+  width: 70%;
+}
+input[type="search"] {
+  outline: none;
+}
+.context button {
+  width: 60px;
+  height: 35px;
+
+  border-radius: 5px;
+  border: none;
+  background-color: #fffff7;
+  color: rgb(102, 8, 189);
+  cursor: pointer;
+}
+.context button:hover {
+  background-color: white;
+}
+input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 70%;
+  /* border: 1px rgb(102, 8, 189) solid; */
+}
+
+.get {
+  display: none;
+  /* width: 0px; */
+  /* transition: width 0.8s; */
+  /* color: white; */
+}
+.get a {
+  color: white;
+}
+.get a:hover {
+  color: whitesmoke;
+  text-decoration: underline;
+
+  /* transition: width 0.6s ease; */
+}
+.sub #ges:hover .get {
+  border-radius: 10px;
+  padding: 10px;
+  display: block;
+  border: none;
+  min-height: 40px;
+  min-width: 40px;
+  position: absolute;
+  /* margin: -2px; */
+  background-color: rgb(102, 8, 189);
+}
+.nex {
+  display: flex;
+  /* border-spacing: 20px; */
+}
+.rent {
+  margin-left: 1%;
+  border-radius: 5px;
+  border: none;
+  width: 300px;
+  height: 250px;
+  border-radius: 5px;
+  /* height: 120px; */
+  display: flex;
+  border-spacing: 20px;
+}
+.rentabout {
+  padding: 10px;
+  border: none;
+  width: 600px;
+  height: 200px;
+  margin-top: 1%;
+  margin-left: 1%;
+  opacity: 120%;
+  /* color: rgba(0, 0, 0, 0.068); */
+  /* opacity: 120%; */
+  /* min-height: 20px; */
+  background-color: #fffff7;
+}
+.rentabout button {
+  color: white;
+  cursor: pointer;
+  padding: 1px;
+  border-radius: 5px;
+  border: none;
+  background-color: gray;
+}
+.rentabout h3 {
+  margin-top: 1%;
+  text-align: end;
+}
+
+.rentabout p {
+  font-size: 20px;
+}
+.rentabout #nexdown a {
+  text-decoration: none;
+  color: white;
+}
+.rentabout #nexdown {
+  margin-left: 75%;
+  width: 50px;
+  height: 35px;
+}
+.rented1,
+.rented7,
+.rented2,
+.rented3,
+.rented4,
+.rented5,
+.rented6 {
+  display: flex;
+}
+
+/* @media screen and (max-width: 768px) {
+  nav {
+    display: none;
+  }
+} */
+@media screen and (max-width: 1200px) {
+  .content,
+  .sub {
+    display: none;
+  }
+  .subheader {
+    width: 100%;
+  }
+  .text i {
+    left: 25%;
+    /* position: static; */
+  }
+  .content i {
+    display: block;
+  }
+  .subheader .nav-bar {
+    display: block;
+    text-align: end;
+    position: absolute;
+    left: 95%;
+    top: 4%;
+  }
+  .subheader .nav-bar i {
+    cursor: pointer;
+    color: rgb(102, 8, 189);
+  }
+}
